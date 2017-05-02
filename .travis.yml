@@ -29,7 +29,7 @@ before_install:
 
 install:
     - composer install --no-interaction --prefer-dist
-    - sudo npm install -g npm
+    - npm install -g npm
     - npm install
 
 before_script:
